@@ -1,0 +1,79 @@
+html<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2LeftHands - Стартовая страница</title>
+    <!-- Подключение библиотеки иконок Font Awesome для иконки поиска -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .nav-container {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .btn-search {
+            background-color: #27ae60;
+        }
+
+        .btn-search:hover {
+            background-color: #219653;
+        }
+    </style>
+</head>
+<body>
+
+<h1>2LeftHands</h1>
+
+<div class="nav-container">
+    <a href="#about" class="btn">О нас</a>
+    <a href="#skills" class="btn">Наши умения</a>
+    <a href="#contacts" class="btn">Контакты</a>
+    <a href="#search" class="btn btn-search">
+        Поиск <i class="fas fa-search"></i>
+    </a>
+</div>
+
+</body>
+</html>
